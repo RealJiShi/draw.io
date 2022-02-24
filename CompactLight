@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T05:56:13.469Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="xWnL_delK8sKoDDJxYyD" version="16.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-24T05:56:42.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_VEUWxhX4iry3kL6rz_K" version="16.4.7" type="github">
   <diagram id="J3hB1SMjRzhULMnXChee" name="Page-1">
     <mxGraphModel dx="1879" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -574,9 +574,6 @@
         </mxCell>
         <mxCell id="7oNB3DQx6qxvsjaAA51Y-151" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="680" y="530" width="360" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="7oNB3DQx6qxvsjaAA51Y-135" value="CulledLightDataStart = NextCulledLightData + NumCulledLights" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="7oNB3DQx6qxvsjaAA51Y-151">
-          <mxGeometry width="360" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7oNB3DQx6qxvsjaAA51Y-136" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;rounded=1;fontSize=11;strokeColor=default;fillColor=none;" vertex="1" parent="7oNB3DQx6qxvsjaAA51Y-151">
           <mxGeometry x="65" y="30" width="200" height="20" as="geometry" />
