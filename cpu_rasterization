@@ -1,1 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T13:33:22.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="16.6.3" etag="bio6KCmljZt5yaE0eEAE" type="github"><diagram id="F4Iw2AUfmag6lebbDf-e">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-28T13:42:34.293Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="omhUNFdb7fJCX40EQ_qr" version="16.6.3" type="github">
+  <diagram id="F4Iw2AUfmag6lebbDf-e" name="Page-1">
+    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Re5zHfozvXBVimYtVSEC-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.scratchapixel.com/images/upload/rasterization/raytracing-raster2.png;clipPath=inset(0.33% 7.68% 0.33% 0.94%);" vertex="1" parent="1">
+          <mxGeometry x="130" y="130" width="368.4563758389262" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Re5zHfozvXBVimYtVSEC-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.scratchapixel.com/images/upload/rasterization/raytracing-raster3.png;clipPath=inset(0.85% 3.67% 6.84% 3.33%);" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="322.92" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Re5zHfozvXBVimYtVSEC-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Re5zHfozvXBVimYtVSEC-1" target="Re5zHfozvXBVimYtVSEC-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="550" as="sourcePoint" />
+            <mxPoint x="610" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="468" />
+              <mxPoint x="570" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Re5zHfozvXBVimYtVSEC-4" value="2D-Triangle Bounding Box" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="721.46" y="60" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Re5zHfozvXBVimYtVSEC-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.scratchapixel.com/images/upload/rasterization/raytracing-raster4.png;clipPath=inset(0.85% 3.67% 6.36% 3%);" vertex="1" parent="1">
+          <mxGeometry x="640" y="440" width="322.92" height="252.57" as="geometry" />
+        </mxCell>
+        <mxCell id="Re5zHfozvXBVimYtVSEC-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Re5zHfozvXBVimYtVSEC-2" target="Re5zHfozvXBVimYtVSEC-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="420" as="sourcePoint" />
+            <mxPoint x="830" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Re5zHfozvXBVimYtVSEC-7" value="Scan From Left to Right" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="731.46" y="692.5699999999999" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Re5zHfozvXBVimYtVSEC-8" value="Projection" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="279.23" y="100" width="70" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
