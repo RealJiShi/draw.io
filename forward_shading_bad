@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T13:45:28.266Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="dllKCnIvpfLovEWI9ESD" version="16.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T13:49:18.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="5-bK8_mcIlcEW_J-F2-G" version="16.6.3" type="github">
   <diagram id="RVM1pR4EcGyGVMs5SWbB" name="Page-1">
     <mxGraphModel dx="4462" dy="4905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -12,6 +12,9 @@
         </mxCell>
         <mxCell id="5IYIpNBKOG6Aa1AH8yYT-3" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=1;strokeColor=#B20000;shadow=0;dashed=0;shape=mxgraph.ios7.icons.sun;pointerEvents=1;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-1845" y="-1550" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5IYIpNBKOG6Aa1AH8yYT-6" value="N lights, each covering the whole area of the render target,&lt;br&gt;&lt;b&gt;Complexity = O(1920 * 1080 * N)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1430" y="-1550" width="430" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
