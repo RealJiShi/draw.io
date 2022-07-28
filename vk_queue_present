@@ -1,1 +1,124 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T02:36:54.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.0" etag="zky5icEEB3GSKd7FeAU8" type="github"><diagram id="yqk15Y065R1WCyWWKMFZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-28T03:11:10.204Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="5EgOuoMRE1I3pwhRr2Oz" version="20.2.0" type="github">
+  <diagram id="yqk15Y065R1WCyWWKMFZ" name="第 1 页">
+    <mxGraphModel dx="1422" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LoDap-8N6eXIlczLjisr-1" value="Rendering Engine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="530" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-2" value="Present Engine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="870" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-3" value="vkWaitForFence" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-4" value="vkAcquireImageKHR&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-5" value="vkQueueSubmit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="400" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-6" value="vkQueuePresentKHR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="400" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.009;exitY=0.467;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LoDap-8N6eXIlczLjisr-3" target="LoDap-8N6eXIlczLjisr-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="510" as="sourcePoint" />
+            <mxPoint x="20" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.998;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LoDap-8N6eXIlczLjisr-4" target="LoDap-8N6eXIlczLjisr-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="580" as="sourcePoint" />
+            <mxPoint x="340" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LoDap-8N6eXIlczLjisr-6" target="LoDap-8N6eXIlczLjisr-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="510" as="sourcePoint" />
+            <mxPoint x="920" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="415" />
+              <mxPoint x="850" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LoDap-8N6eXIlczLjisr-1" target="LoDap-8N6eXIlczLjisr-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="590" as="sourcePoint" />
+            <mxPoint x="640" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="310" />
+              <mxPoint x="670" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.498;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LoDap-8N6eXIlczLjisr-1" target="LoDap-8N6eXIlczLjisr-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="510" as="sourcePoint" />
+            <mxPoint x="680" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="310" />
+              <mxPoint x="670" y="500" />
+              <mxPoint x="20" y="500" />
+              <mxPoint x="20" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.995;exitY=0.498;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LoDap-8N6eXIlczLjisr-5" target="LoDap-8N6eXIlczLjisr-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="500" as="sourcePoint" />
+            <mxPoint x="530" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="415" />
+              <mxPoint x="510" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-29" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="500" y="350" width="43" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-17" value="RS&lt;br&gt;RF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="LoDap-8N6eXIlczLjisr-29">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-28" value="" style="group" vertex="1" connectable="0" parent="LoDap-8N6eXIlczLjisr-29">
+          <mxGeometry x="30" y="9" width="13" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-19" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/close-cross-error-wrong-reject-128.png;fontSize=10;strokeColor=default;fillColor=none;" vertex="1" parent="LoDap-8N6eXIlczLjisr-28">
+          <mxGeometry width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-22" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/close-cross-error-wrong-reject-128.png;fontSize=10;strokeColor=default;fillColor=none;" vertex="1" parent="LoDap-8N6eXIlczLjisr-28">
+          <mxGeometry y="12.5" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-31" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="660" y="350" width="43" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-32" value="RS&lt;br&gt;RF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="LoDap-8N6eXIlczLjisr-31">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-46" value="" style="group" vertex="1" connectable="0" parent="LoDap-8N6eXIlczLjisr-31">
+          <mxGeometry x="30" y="9" width="13" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-18" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/user-interface-169/32/checkmark-128.png;fontSize=10;strokeColor=default;fillColor=none;" vertex="1" parent="LoDap-8N6eXIlczLjisr-46">
+          <mxGeometry width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-45" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/user-interface-169/32/checkmark-128.png;fontSize=10;strokeColor=default;fillColor=none;" vertex="1" parent="LoDap-8N6eXIlczLjisr-46">
+          <mxGeometry y="12.5" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-47" value="Wait Unitl Rendering Finished" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="660" y="310" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-48" value="Present" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="790" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-49" value="Frame Complete when fence is signaled(CPU + GPU)&lt;br&gt;The status of Present Engine is not counted as a part of rendering" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="173" y="500" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-50" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;RS: Rendering Finished Semaphore&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;RF:Rendering Finished Fence&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="20" y="285" width="230" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
