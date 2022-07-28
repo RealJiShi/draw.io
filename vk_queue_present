@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T03:11:10.204Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="5EgOuoMRE1I3pwhRr2Oz" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T03:12:42.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-V68Gi4Fr9OGgia9al48" version="20.2.0" type="github">
   <diagram id="yqk15Y065R1WCyWWKMFZ" name="第 1 页">
-    <mxGraphModel dx="1422" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,6 +117,19 @@
         </mxCell>
         <mxCell id="LoDap-8N6eXIlczLjisr-50" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;RS: Rendering Finished Semaphore&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 10px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;RF:Rendering Finished Fence&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="20" y="285" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-51" value="" style="endArrow=classic;html=1;rounded=0;fontSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.496;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LoDap-8N6eXIlczLjisr-2" target="LoDap-8N6eXIlczLjisr-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="650" as="sourcePoint" />
+            <mxPoint x="960" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="930" y="240" />
+              <mxPoint x="264" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoDap-8N6eXIlczLjisr-52" value="Acquire Swapchain Image" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="500" y="210" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
