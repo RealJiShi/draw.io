@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" modified="2024-05-11T09:17:03.249Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Ch0l7tRV8C0PlJPQXmxj" version="24.4.0" type="github">
+  <diagram name="第 1 页" id="W9WQcyDblY8BYKCmj8dJ">
+    <mxGraphModel dx="2074" dy="1067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-1" value="Resource Heap" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="720" y="260" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-2" value="Resource Heap" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="900" y="260" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-3" value="GPU Virtual&lt;div&gt;Addresses&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-4" value="GPU Virtual&lt;div&gt;Addresses&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="900" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-6" value="&lt;span style=&quot;white-space: nowrap;&quot;&gt;Physical Page&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-7" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;主GPU&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="745" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-8" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;从GPU&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="925" y="220" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="400" as="sourcePoint" />
+            <mxPoint x="1020" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="590" as="sourcePoint" />
+            <mxPoint x="870" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nqPAppNRH0ifxpVo2W8d-3" target="nqPAppNRH0ifxpVo2W8d-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="750" as="sourcePoint" />
+            <mxPoint x="450" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nqPAppNRH0ifxpVo2W8d-4" target="nqPAppNRH0ifxpVo2W8d-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="640" as="sourcePoint" />
+            <mxPoint x="1170" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-14" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;从GPU&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="210" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-15" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;主GPU&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="210" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-17" value="Render Scene" style="whiteSpace=wrap;html=1;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="270" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-18" value="Graphics Queue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="240" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-20" value="Signal A" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="440" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-21" value="Copy Resource" style="whiteSpace=wrap;html=1;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-22" value="Copy Queue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="240" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-23" value="Signal B" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-24" value="Wait A" style="whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="440" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-25" value="Copy Resource" style="whiteSpace=wrap;html=1;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-26" value="Copy Queue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1505" y="240" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-27" value="Signal C" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="660" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-28" value="Wait B" style="whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-31" value="Render Scene" style="whiteSpace=wrap;html=1;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="270" width="120" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-32" value="Graphics Queue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1635" y="240" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-33" value="Wait C" style="whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="660" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-35" value="Render Scene" style="whiteSpace=wrap;html=1;fillColor=#CCFFE6;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="700" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-36" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1470" y="880" as="sourcePoint" />
+            <mxPoint x="1470" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-37" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;共享堆与共享栅栏&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nqPAppNRH0ifxpVo2W8d-38" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;双向复制引擎的跨GPU资源传输&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="180" width="240" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
